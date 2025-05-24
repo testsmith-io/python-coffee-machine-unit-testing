@@ -37,7 +37,6 @@ mutmut results
 | Latte            | 150ml | 20g   | 100ml |
 | Cappuccino       | 100ml | 25g   | 150ml |
 | Macchiato        | 100ml | 15g   | 50ml  |
-```
 
 To run mutation tests, ensure `mutmut` is installed and configured properly. Enjoy testing your virtual coffee machine!
 
