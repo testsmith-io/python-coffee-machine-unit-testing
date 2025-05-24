@@ -1,0 +1,2 @@
+class InsufficientBeansException(Exception):
+    pass

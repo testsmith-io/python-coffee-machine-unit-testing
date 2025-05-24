@@ -1,0 +1,2 @@
+class InsufficientMilkException(Exception):
+    pass

@@ -1,0 +1,2 @@
+class InsufficientWaterException(Exception):
+    pass
