@@ -42,9 +42,8 @@ To run mutation tests, ensure `mutmut` is installed and configured properly. Enj
 
 ## Coverage
 
-| Name                                                                     | Stmts | Miss Branch BrPart | Cover |   |      |
+| Name                                                                     | Stmts | Miss   | Branch | BrPart  | Cover     |
 |--------------------------------------------------------------------------|-------|--------------------|-------|---|------|
-| ------------------------------------------------------------------------ |       |                    |       |   |      |
 | src/coffee_machine.py                                                    | 33    | 0                  | 8     | 0 | 100% |
 | src/enums/__init__.py                                                    | 0     | 0                  | 0     | 0 | 100% |
 | src/enums/coffee_type.py                                                 | 12    | 0                  | 0     | 0 | 100% |
@@ -59,5 +58,4 @@ To run mutation tests, ensure `mutmut` is installed and configured properly. Enj
 | src/models/water_tank.py                                                 | 3     | 0                  | 0     | 0 | 100% |
 | tests/__init__.py                                                        | 0     | 0                  | 0     | 0 | 100% |
 | tests/test_coffee_machine.py                                             | 48    | 0                  | 0     | 0 | 100% |
-| ------------------------------------------------------------------------ |       |                    |       |   |      |
 | TOTAL                                                                    | 121   | 2                  | 10    | 1 | 98%  |
