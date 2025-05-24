@@ -42,21 +42,22 @@ To run mutation tests, ensure `mutmut` is installed and configured properly. Enj
 
 ## Coverage
 
-Name                                   Stmts   Miss Branch BrPart  Cover
-------------------------------------------------------------------------
-src/coffee_machine.py                     33      0      8      0   100%
-src/enums/__init__.py                      0      0      0      0   100%
-src/enums/coffee_type.py                  12      0      0      0   100%
-src/exceptions/__init__.py                 0      0      0      0   100%
-src/exceptions/insufficient_beans.py       2      0      0      0   100%
-src/exceptions/insufficient_milk.py        2      0      0      0   100%
-src/exceptions/insufficient_water.py       2      0      0      0   100%
-src/models/__init__.py                     0      0      0      0   100%
-src/models/bean_reservoir.py               3      0      0      0   100%
-src/models/milk_reservoir.py               3      0      0      0   100%
-src/models/reservoir.py                   13      2      2      1    80%
-src/models/water_tank.py                   3      0      0      0   100%
-tests/__init__.py                          0      0      0      0   100%
-tests/test_coffee_machine.py              48      0      0      0   100%
-------------------------------------------------------------------------
-TOTAL                                    121      2     10      1    98%
+| Name                                                                     | Stmts | Miss Branch BrPart | Cover |   |      |
+|--------------------------------------------------------------------------|-------|--------------------|-------|---|------|
+| ------------------------------------------------------------------------ |       |                    |       |   |      |
+| src/coffee_machine.py                                                    | 33    | 0                  | 8     | 0 | 100% |
+| src/enums/__init__.py                                                    | 0     | 0                  | 0     | 0 | 100% |
+| src/enums/coffee_type.py                                                 | 12    | 0                  | 0     | 0 | 100% |
+| src/exceptions/__init__.py                                               | 0     | 0                  | 0     | 0 | 100% |
+| src/exceptions/insufficient_beans.py                                     | 2     | 0                  | 0     | 0 | 100% |
+| src/exceptions/insufficient_milk.py                                      | 2     | 0                  | 0     | 0 | 100% |
+| src/exceptions/insufficient_water.py                                     | 2     | 0                  | 0     | 0 | 100% |
+| src/models/__init__.py                                                   | 0     | 0                  | 0     | 0 | 100% |
+| src/models/bean_reservoir.py                                             | 3     | 0                  | 0     | 0 | 100% |
+| src/models/milk_reservoir.py                                             | 3     | 0                  | 0     | 0 | 100% |
+| src/models/reservoir.py                                                  | 13    | 2                  | 2     | 1 | 80%  |
+| src/models/water_tank.py                                                 | 3     | 0                  | 0     | 0 | 100% |
+| tests/__init__.py                                                        | 0     | 0                  | 0     | 0 | 100% |
+| tests/test_coffee_machine.py                                             | 48    | 0                  | 0     | 0 | 100% |
+| ------------------------------------------------------------------------ |       |                    |       |   |      |
+| TOTAL                                                                    | 121   | 2                  | 10    | 1 | 98%  |
